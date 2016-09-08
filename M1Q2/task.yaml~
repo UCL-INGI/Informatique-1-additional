@@ -1,0 +1,58 @@
+#   Copyright (c) 2016 François Michel, Ludovic Taffin
+#   This program is free software: you can redistribute it and/or modify
+#   it under the terms of the GNU Affero General Public License as published by
+#   the Free Software Foundation, either version 3 of the License, or
+#   (at your option) any later version.
+#
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU Affero General Public License for more details.
+#
+#   You should have received a copy of the GNU Affero General Public License
+#   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# Écrivez votre nom derrière la balise "author"
+# Écrivez le nom de la tâche entre simples guillements ( ' )  derrière la balise "name"
+# Écrivez l'énoncé de l'exercice sous la balise "context". N'oubliez pas d'indenter tout votre texte par rapport à la balise.
+# Sous la balise "problems", écrivez une nouvelle balise "q1" qui corresond à votre sous-question, indentée par rapport à la balise "problems"
+# Sous la balise "q1", complétez les balises nécessaires ("name" correspond au titre de la sous-question, "header" à un court énoncé de celle-ci).  
+# Inutile de toucher aux autres balises.
+# Le texte de l'énoncé de l'exercice (sous la balise "context") est écrit en langage reStructuredText (rst) :
+# "::" permet d'afficher un bloc de code. Le code doit  être séparé de "::" par une ligne vide et être indenté par rapport à "::"
+# ".. code-block:: java correspond à "::" mais avec la précision qu'il doit le mettre en couleur en fonction de la syntaxe java
+
+
+
+accessible: true
+author: François MICHEL & Ludovic TAFFIN
+context: |+
+    Écrivez un programme qui effectue le contrôle de vitesse d' 'une voiture.
+    Voici comment est calculée l' 'amende : le conducteur devra payer 5 euros par km/h au-dessus de la vitesse maximale autorisée, avec un minimum de 12.5 euros.
+    Pour tout dépassement de plus de 10 km/h, l''amende est doublée !
+    Votre programme reçoit la vitesse maximale autorisée et la vitesse réelle de la voiture. 
+    Il calcule l''éventuelle amende.
+    Exemple: Si la vitesse maximum est de 50km/h et que le véhicule roule à 62km/h, l''amende sera de 12*5*2=120€.
+
+    .. code-block:: java
+
+        double vitesseMaximale = /* vitesseMaximale reçoit n'importe quelle valeur réelle non négatif */
+        double vitesseVéhicule = /* vitesseMaximale reçoit n'importe quelle valeur réelle non négatif */
+        double amende = 0; /* amende est remplie par votre programme et renvoie la valeur de l'amende. Il s'agit d'un réel positif.*/
+
+environment: java7
+groups: false
+limits:
+    memory: '200'
+    time: '30'
+    output: '1'
+name: 'Mission 2: Question supplémentaire : Calcul d'amende'
+network_grading: false
+order: 5
+problems:
+    q1:
+        language: Java
+        type: code
+        name: Système d'amende
+        header: 'Écrivez ici le bout de programme permettant de calculer l''amende :'
+weight: 1.0
