@@ -1,0 +1,30 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    Transformer une date (jour, mois) en la saison correspondante:
+    Date du printemps : dimanche 20 mars 2016
+    Date de l’été : lundi 20 juin 2016
+    Date de l’automne : jeudi 22 septembre 2016
+    Date de l’hiver : mercredi 21 décembre 2016
+    .. code-block:: java
+
+        int jour; //le jour
+	int mois; //le mois
+        String saison; //le nom de la saison (automne,hiver,printemps,été)
+
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : Sélecteur de saison'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Calcul la saison cela la date donnée
+        header: ''
+weight: 1.0
