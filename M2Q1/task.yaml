@@ -1,0 +1,28 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    Ecrivez une boucle for qui place dans la variable count le nombre d’entiers qui divisent l’entier n dans l’intervalle [a,b].
+    Pour rappel, l’intervalle fermé [a,b] comprend les nombres a et b. On supposera a<b.
+
+    .. code-block:: java
+
+        int a; //a dans l'intervalle
+        int b; //b dans l'intervalle
+        int d ; //Le diviseur à tester
+        int count=0; //Le compteur à incrémenter
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : Compteur d'élément dans l'intervalle'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Compteur d'élément dans l'intervalle
+        header: ''
+weight: 1.0
