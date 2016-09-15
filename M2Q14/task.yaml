@@ -1,0 +1,24 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    Vérifier si un caractère est un chiffre,une voyelle,une consonne
+    .. code-block:: java
+
+        char carac;//le caractère à vérifier
+	String retour; //chiffre,voyelle ou consonne
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : caractère'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Déterminer si un caractère est un chiffre,une voyelle,une consonne
+        header: ''
+weight: 1.0
