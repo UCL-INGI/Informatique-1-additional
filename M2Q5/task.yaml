@@ -1,0 +1,26 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    calculer la moyenne de trois nombres réels 
+    .. code-block:: java
+
+        double moyenne; //le résultat de la moyenne
+	double a;
+        double b;
+	double c;
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : Moyenne'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Calcul de moyenne de 3 nombres
+        header: ''
+weight: 1.0
