@@ -1,0 +1,35 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    Créer un programme permettant de calculer des fonctions mathématiques
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : Fonctions mathématiques'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Fonction abs, donne la valeur absolue d'un nombre entier
+        header: ''
+    q2:
+        language: java
+        type: code
+        name: Fonction ceil, retourne l'entier supérieur d'un nombre
+        header: ''
+    q3:
+        language: java
+        type: code
+        name: Fonction round, retourne la valeur arrondie d'un nombre
+        header: ''
+    q4:
+        language: java
+        type: code
+        name: Fonction floor, retourne l'entier inférieur d'un nombre
+        header: ''
+weight: 1.0
