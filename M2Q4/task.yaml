@@ -1,0 +1,27 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    mettre la variable ordonne a true si a<b<c et false sinon 
+
+    .. code-block:: java
+
+        boolean ordonne; //la variable à changer (true/false)
+	int a;
+        int b;
+	int c;
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : Ordonne'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Les valeurs sont-elles ordonnées?
+        header: ''
+weight: 1.0
