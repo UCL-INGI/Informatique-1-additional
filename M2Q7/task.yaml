@@ -1,0 +1,27 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    calculer le minimum entre a, b, c et d 
+    .. code-block:: java
+
+        int minimum; //le plus petit parmi a,b,c,d
+	int a;
+        int b;
+	int c;
+	int d;
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : Minimum'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Calcul le nombre le plus petit
+        header: ''
+weight: 1.0
