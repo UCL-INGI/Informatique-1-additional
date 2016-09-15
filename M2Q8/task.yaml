@@ -1,0 +1,26 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    a,b et c sont des entiers, mettre dans la variable count le nombre d’entiers différents
+    .. code-block:: java
+
+        int count; //le nombre d'entiers différents
+	int a;
+        int b;
+	int c;
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : compteur de différence'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Calcul le nombre d'entiers différents
+        header: ''
+weight: 1.0
