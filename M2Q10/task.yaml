@@ -1,0 +1,28 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    transformer une heure (heure, minutes, secondes) en un nombre de secondes depuis minuit
+	Exemple : 22h14m12s = 80052s
+    .. code-block:: java
+
+        int heure; //le nombre d'heures
+	int minute; //le nombre de minutes
+	int seconde; //le nombre de secondes
+        int total=0 //Le nombre de secondes depuis minuit
+
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : nombre de secondes depuis minuit'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Calcul du nombre de secondes depuis minuit
+        header: ''
+weight: 1.0
