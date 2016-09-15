@@ -1,0 +1,27 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    Mettre la variable in à true si x se trouve dans l’intervalle fermé [a,b] et false sinon. A faire en un seul if si possible
+
+    .. code-block:: java
+
+        boolean in; //la variable à changer
+	int x; // la variable à vérifier
+	int a; //a dans l'intervalle
+        int b; //b dans l'intervalle
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : IN/OUT'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Définir si x est dans ou en dehors de l'intervalle.
+        header: ''
+weight: 1.0
