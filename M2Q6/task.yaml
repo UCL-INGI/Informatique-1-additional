@@ -1,0 +1,26 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    calculer le maximum entre a, b et c 
+    .. code-block:: java
+
+        int maximum; //le plus grand parmi a,b,c
+	int a;
+        int b;
+	int c;
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : Maximum'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Calcul le nombre le plus grand
+        header: ''
+weight: 1.0
