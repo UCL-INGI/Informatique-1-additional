@@ -19,22 +19,17 @@ public class Exercice6Corr {
 
     // Code a verifier
     public static String[] fizzbuzz(int n){
-        String[] tableau = new String[n];
+        String[] tableau = new String[];
         int i=1;
         while(i <= n){
-            String temp ="";
-            if(i%15==0){
-                temp = "fizzbuzz";
-            }else{
-                if(i%3==0){
-                    temp="fizz";
-                }else {
-                    if (i % 5 == 0) {
-                        temp = "buzz";
-                    } else temp = "" + i;
-                }
+            string temp ="";
+            if(i%15==0) temp = "fizzbuzz";
+            else{
+                if(i%3==0) temp="fizz";
+                if(i%5==0) temp="buzz";
+                else temp=""+i;
             }
-            tableau[i-1]= temp;
+            tableau[i]= temp;
             i++;
 
         }

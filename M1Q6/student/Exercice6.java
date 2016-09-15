@@ -92,7 +92,7 @@ public class Exercice6 {
 
     // Code verificateur
     public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(Exercice1.class);
+        Result result = JUnitCore.runClasses(Exercice6.class);
         for (Failure failure: result.getFailures()) {
             System.err.println(failure.toString());
         }

@@ -211,7 +211,7 @@ public class Exercice2 {
 
     // Code verificateur
     public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(Exercice1.class);
+        Result result = JUnitCore.runClasses(Exercice2.class);
         for (Failure failure: result.getFailures()) {
             System.err.println(failure.toString());
         }
