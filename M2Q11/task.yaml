@@ -1,0 +1,24 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    Créer un programme permettant de déterminer si une année est bissextile
+    .. code-block:: java
+
+        int annee; //l'année à vérifier
+	boolean resultat;
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : année bissextile'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Déterminer si une année est bissextile
+        header: ''
+weight: 1.0
