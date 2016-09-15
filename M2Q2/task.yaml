@@ -1,0 +1,26 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    Calculer le reste de la division entière entre a et b en utilisant uniquement une boucle for et des soustractions, a et b>0. 
+
+    .. code-block:: java
+
+        int a; //a un entier supérieur à 0
+        int b; //b un entier supérieur à 0
+        int reste; // le reste de la division entière. Exemple : 5/3, le reste sera 2 
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : Calculer le reste d''une division entière'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Calculer le reste d'une division entière
+        header: ''
+weight: 1.0
