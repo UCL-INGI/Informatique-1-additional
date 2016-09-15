@@ -1,0 +1,24 @@
+accessible: true
+author: Ludovic Taffin
+context: |-
+    Créer un programme permettant de déterminer le siècle d'une année
+    .. code-block:: java
+
+        int annee; //l'année à vérifier
+	int siecle // le siècle de l'année
+environment: java7
+groups: false
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Mission 2 : Siècle'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: java
+        type: code
+        name: Déterminer le siècle d'une année
+        header: ''
+weight: 1.0
