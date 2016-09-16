@@ -1,0 +1,39 @@
+accessible: true
+author: François MICHEL & Ludovic TAFFIN
+context: |-
+    Considérons un programme utilisant cinq variables entières : ``int a``, ``int b``, ``int c``, ``int d`` et ``int e``.
+    Comment feriez-vous, en utilisant uniquement des instructions conditionelles (``if (...) {...} else {...}`` pour calculer la médiane de ces cinq valeurs.
+
+    Pour rappel, la médiane est la valeur qui est telle qu’il y a exactement deux valeurs inférieures à elle et deux valeurs supérieures à elle. Les instructions conditionelles sont décrites dans la section |jn3.1]_ du livre.
+
+
+
+    .. code-block:: java
+
+        int a, int b, int c, int d et int e /* Les valeurs entières à comparer */
+        int mediane /* La médiane à déterminer */
+
+    .. _jn3.1: http://math.hws.edu/javanotes/c3/s1.html
+    .. |jn3.1| replace:: `3.1 : Blocks, Loops, and Branches`
+environment: java7
+evaluate: best
+groups: false
+limits:
+    memory: '200'
+    output: '2'
+    time: '30'
+name: 'Mission 1: Question supplémentaire : Médiane'
+network_grading: false
+order: 1
+problems:
+    q1:
+        language: Java
+        header: 'Écrivez ici le bout de programme permettant de calculer la médiane
+            :'
+        type: code
+        name: Trouver la médiane parmi 5 nombres
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

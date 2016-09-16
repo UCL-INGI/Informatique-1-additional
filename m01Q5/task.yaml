@@ -1,0 +1,41 @@
+accessible: true
+author: Lucas Ody & Tom Rousseaux
+context: |-
+    Le `OU exclusif <https://fr.wikipedia.org/wiki/Fonction_OU_exclusif>`_ (XOR en anglais) est un opérateur logique à l'instar du "et" et du "ou". Il vous est demandé d'implémenter ce XOR, sachant que, pour A et B deux booléens, le résultat de A XOR B est ``true`` si un et un seul des booléens A et B est ``true``, et ``false`` sinon.
+
+    Pour cette question, vous pouvez uniquement utiliser des instructions conditionelles et les expressions ``&&`` et ``||`` et la négation logique ``!``.
+
+    Pour rappel, les expressions booléennes sont décrites dans la section |jn2.5|_ du livre et l'instruction conditionelle dans la section |jn3.1]_
+
+    .. _jn2.5 : http://math.hws.edu/javanotes/c2/s5.html
+    .. |jn2.5| replace:: `2.5 : Details of Expressions`
+
+    .. _jn3.1: http://math.hws.edu/javanotes/c3/s1.html
+    .. |jn3.1| replace:: `3.1 : Blocks, Loops, and Branches`
+environment: java7
+evaluate: best
+groups: false
+limits:
+    memory: '100'
+    output: '2'
+    time: '30'
+name: 'Mission 1 : OU exclusif'
+network_grading: false
+order: 2
+problems:
+    q1:
+        language: java
+        header: |4-
+             .. code-block:: java
+
+                 boolean A;//paramètres
+                 boolean B;
+
+                 boolean XOR=false;// le résultat de votre Xor
+        type: code
+        name: ''
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

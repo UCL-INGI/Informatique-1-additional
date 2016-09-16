@@ -1,0 +1,40 @@
+accessible: true
+author: François MICHEL & Ludovic TAFFIN
+context: |+
+    Écrivez un programme qui permet de jouer au jeu du `fizzbuzz <https://en.wikipedia.org/wiki/Fizz_buzz>`_
+
+    Vous recevez un nombre (stocké dans la variable ``i``).
+
+    Pour chaque entier plus petit ou égal à ``i``, le jeu consiste en :
+
+     - On stocke ``fizz`` dans la variable ``temp`` si le nombre est divisible par 3.
+     - On stocke ``buzz`` dans la variable ``temp`` si le nombre est divisible par 5.
+     - On stocke ``fizzbuzz`` dans la variable ``temp`` si le nombre est divisible par 3 et par 5.
+     - On stocke ``non`` dans la variable ``temp`` s'il n'est divisible ni par 3 ni par 5.
+
+    .. code-block:: java
+
+        int i =0; /* le nombre à vérifier. */
+        String temp="" /*fizz,buzz,fizzbuzz ou non */
+
+environment: java7
+evaluate: best
+groups: false
+limits:
+    memory: '200'
+    output: '1'
+    time: '30'
+name: 'Mission 1: Question supplémentaire : Fizzbuzz'
+network_grading: false
+order: 2
+problems:
+    q1:
+        language: Java
+        header: Écrivez le programme pour jouer au Fizzbuzz
+        type: code
+        name: Fizzbuzz
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

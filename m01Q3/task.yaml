@@ -1,0 +1,41 @@
+accessible: true
+author: François MICHEL & Ludovic TAFFIN
+context: |+
+    L\'`indice de Quételet <https://fr.wikipedia.org/wiki/Indice_de_masse_corporell>`_, utilisé par les diététiciens, est révélateur de l\'état d'’une personne.
+
+    Une personne normale devrait avoir un indice compris entre 20 et 25. En dessous de 20, elle est considérée comme mince, au dessus de 25, elle est en embonpoint.
+    Au-delà de 30, elle est obèse!
+
+    Cet indice est calculé comme étant le rapport entre le poids d'une personne, exprimé en kg et le carré de sa taille, exprimé en mètre.
+
+    Complétez le programme ci-dessous pour calculer l'indice de Quételet d'un personne et stocker dans la chaîne de caractères ``etat`` la valeur ``mince`` pour une personne ayant un indice strictement inférieur à 20, ``normal`` pour une personne dont l'indice est compris entre 20 et 25, ``embonpoint`` si l'indice est strictement supérieur à 25 et inférieur ou égal à 30 et ``obèse`` lorsqu'il est strictement supérieur à 30 ...
+
+
+    .. code-block:: java
+
+        double taille = /* taille d'une personne en m */
+        int poids = /* poids d'une personne en kg */
+        String etat ="" /* état de la personne (mince,normal,embonpoint,obèse*/
+
+environment: java7
+evaluate: best
+groups: false
+limits:
+    memory: '200'
+    output: '1'
+    time: '30'
+name: 'Mission 1: Question supplémentaire : Indice de Quételet'
+network_grading: false
+order: 2
+problems:
+    q1:
+        language: Java
+        header: 'Écrivez ici le bout de programme permettant mettre dans la variable
+            ``état`` l\''état d''une personne sur base de son indice de Quételet :'
+        type: code
+        name: Indice de Quételet
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

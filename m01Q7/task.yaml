@@ -1,0 +1,39 @@
+accessible: true
+author: François MICHEL & Ludovic TAFFIN
+context: |+
+    On vous demande d\'écrire un programme permettant de calculer la somme des entiers pairs entre 1 et ``n`` (inclus).
+
+    *Exemple* :  pour n=5 votre programme retournera 6 (2+4)
+
+    Pour vous aider dans cette tâche, il vous est possible d'utiliser le symbole % qui calcule un modulo.
+
+    Votre code utilisera la variable ``n`` et retournera son résultat dans la variable ``sum``.
+
+    .. code-block:: java
+
+        int n = /* n peut prendre n'importe quelle valeur supérieure à zéro */
+        int sum = 0; /* sum est la variable dans laquelle vous devez écrire le résultat final*/
+
+environment: java7
+evaluate: best
+groups: false
+limits:
+    memory: '200'
+    output: '2'
+    time: '30'
+name: 'Mission 1: Question supplémentaire : Somme des n premiers entiers divisibles
+    par 2'
+network_grading: false
+order: 2
+problems:
+    q1:
+        language: Java
+        header: 'Écrivez ici le bout de programme permettant de calculer la somme
+            des n premiers entiers divisibles par 2 :'
+        type: code
+        name: Somme des n premiers entiers divisibles par 2
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

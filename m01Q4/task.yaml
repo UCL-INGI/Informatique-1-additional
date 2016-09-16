@@ -1,0 +1,40 @@
+accessible: true
+author: François MICHEL & Ludovic TAFFIN
+context: |+
+    Une autoroute à péage est divisée en sections. Chaque section est identifiée par un entier. La première section a le numéro 1, le suivante le 2, ... Les véhicules peuvent entrer et sortir en début et fin de section.
+
+
+    Le prix à payer pour un véhicule dépend du nombre de sections parcourues.
+
+    La première section coûte 1 euro et les suivantes coûtent 50 centimes.
+
+    Écrivez un programme qui reçoit la section d\'entrée et la section de sortie d\'une voiture. Il place ensuite dans la variable ``prix`` le montant du payage.
+
+    .. code-block:: java
+
+        int sectionEntree = /* le point d'entrée */
+        int sectionSortie = /* le point de sortie */
+        double prix = 0; /* le prix à payer.*/
+
+environment: java7
+evaluate: best
+groups: false
+limits:
+    memory: '200'
+    output: '1'
+    time: '30'
+name: 'Mission 1: Question supplémentaire : Calcul de prix'
+network_grading: false
+order: 2
+problems:
+    q1:
+        language: Java
+        header: 'Écrivez ici le bout de programme permettant de calculer le prix à
+            payer :'
+        type: code
+        name: Autoroute à péage
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

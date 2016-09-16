@@ -1,0 +1,40 @@
+accessible: true
+author: François MICHEL & Ludovic TAFFIN
+context: |+
+    La police vous engage pour développer un programme permettant de calculer l'amende qu'un conducteur de voiture devra payer en cas d'infraction. La loi stipule que le conducteur devra payer 5 euros par km/h au-dessus de la vitesse maximale autorisée, avec un minimum de 12.5 euros.
+
+    Pour tout dépassement de plus de 10 km/h, l\'amende est doublée !
+
+    Votre programme reçoit la vitesse maximale autorisée et la vitesse réelle de la voiture.
+    Il calcule l''éventuelle amende.
+
+    *Exemple*: Si la vitesse maximum est de 50km/h et que le véhicule roule à 62km/h, l''amende sera de 12*5*2=120€.
+
+    .. code-block:: java
+
+        double vitesseMaximale = /* vitesseMaximale reçoit n'importe quelle valeur réelle positive */
+        double vitesseVéhicule = /* vitesseMaximale reçoit n'importe quelle valeur réelle positive */
+        double amende = 0; /* amende est modifiée par votre programme et renvoie la valeur de l'amende. */
+
+environment: java7
+evaluate: best
+groups: false
+limits:
+    memory: '200'
+    output: '1'
+    time: '30'
+name: 'Mission 1: Question supplémentaire : Calcul d''amende'
+network_grading: false
+order: 2
+problems:
+    q1:
+        language: Java
+        header: 'Écrivez ici le bout de programme permettant de calculer l''amende
+            :'
+        type: code
+        name: Système d'amende
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0
